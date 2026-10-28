@@ -1,0 +1,16 @@
+{
+  "name": "jamiegamerputs-community-bot",
+  "version": "1.0.0",
+  "description": "Discordbot voor JamieGamerPuts Community",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1"
+  }
+}
